@@ -170,6 +170,18 @@ main { overflow:clip; }
 .about-copy h2 { font-size:clamp(42px,5.5vw,78px); font-weight:500; letter-spacing:-.065em; line-height:1.02; margin:55px 0 45px; }
 .about-copy>div>p:not(.section-kicker) { font-size:15px; line-height:1.75; margin:0 0 20px; max-width:600px; }
 .about-copy .text-link { margin-top:45px; }
+.about-actions { align-items:center; display:flex; gap:55px; margin-top:42px; }
+.about-actions .text-link { margin-top:0; }
+.resume-download { align-items:center; background:var(--ink); border:1px solid rgba(12,12,12,.2); border-radius:50%; box-shadow:0 16px 34px rgba(12,12,12,.18); color:var(--paper); display:flex; flex:0 0 140px; height:140px; justify-content:center; overflow:hidden; position:relative; transition:transform .35s,box-shadow .35s; width:140px; }
+.resume-download::before { border:1px dashed rgba(255,255,255,.2); border-radius:50%; content:""; inset:10px; position:absolute; }
+.resume-download-ring { animation:resumeOrbit 13s linear infinite; height:132px; inset:4px; position:absolute; width:132px; }
+.resume-download-ring text { fill:var(--paper); font:500 8.2px "DM Mono",monospace; letter-spacing:1.2px; text-transform:uppercase; }
+.resume-download-core { align-items:center; background:var(--lime); border-radius:50%; color:var(--ink); display:flex; height:52px; justify-content:center; position:relative; transition:background .35s,transform .35s; width:52px; z-index:1; }
+.resume-download-core svg { height:21px; transition:transform .35s; width:21px; }
+.resume-download:hover { box-shadow:0 22px 45px rgba(12,12,12,.25); transform:rotate(-4deg) scale(1.05); }
+.resume-download:hover .resume-download-ring { animation-duration:4s; }
+.resume-download:hover .resume-download-core { background:var(--coral); transform:scale(1.08); }
+.resume-download:hover .resume-download-core svg { transform:translateY(3px); }
 .resume-details { background:var(--ink); display:grid; gap:2vw; grid-template-columns:1fr 1fr; padding-top:40px; }
 .resume-panel { border:1px solid rgba(255,255,255,.18); min-height:430px; padding:clamp(25px,4vw,55px); }
 .resume-panel-title { align-items:center; display:flex; gap:18px; margin-bottom:55px; }
@@ -238,6 +250,7 @@ main { overflow:clip; }
 @keyframes ticker { to { transform:translateX(-50%); } }
 @keyframes pulse { 50% { opacity:.35; } }
 @keyframes spin { to { transform:rotate(360deg); } }
+@keyframes resumeOrbit { to { transform:rotate(360deg); } }
 
 @media (max-width:900px) {
   .desktop-only,.desktop-nav { display:none; } .menu-button { display:block; } .site-header { grid-template-columns:1fr auto; }
@@ -293,6 +306,7 @@ main { overflow:clip; }
   .page-hero h1 { font-size:17vw; margin-top:14vh; }
   .page-hero-bottom { left:22px; right:auto; width:calc(100% - 44px); }
   .about-portrait { height:480px; width:100%; }
+  .about-actions { align-items:flex-start; flex-direction:column; gap:35px; }
   .portrait-sticker { right:-5px; }
   .stats-band { padding-left:22px; padding-right:22px; } .stats-band div { padding:0 15px; } .stats-band strong { font-size:52px; }
   .tool { height:105px; width:105px; }

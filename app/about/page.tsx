@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowDown, ArrowUpRight, GraduationCap, Sparkles } from "lucide-react";
 import { Reveal } from "@/components/reveal";
+import { ResumeDownload } from "@/components/resume-download";
 
 const tools = ["Next.js", "Supabase", "SQL", "JavaScript", "Python", "C", "Git/GitHub", "Vercel", "Render", "ChatGPT", "Claude", "Gemini"];
 
@@ -28,7 +29,7 @@ export default function AboutPage() {
             <p>I am a motivated B.Tech Information Technology student and fresher full stack developer with hands-on experience in Next.js and Supabase.</p>
             <p>My interests include AI-assisted development, prompt engineering, clean interfaces, project documentation, and end-to-end deployment on Vercel and Render.</p>
           </Reveal>
-          <Reveal><Link href="/contact" className="text-link">Connect with me <ArrowUpRight /></Link></Reveal>
+          <Reveal><div className="about-actions"><Link href="/contact" className="text-link">Connect with me <ArrowUpRight /></Link><ResumeDownload /></div></Reveal>
         </div>
       </section>
 
