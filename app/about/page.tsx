@@ -37,7 +37,7 @@ export default function AboutPage() {
           <div className="resume-panel-title"><GraduationCap /><p className="section-kicker light"><span>(B)</span> Education</p></div>
           <h3>B.Tech - Information Technology</h3>
           <p>Park College of Engineering and Technology</p>
-          <span>2023 - 2026</span>
+          <span>2023 - 2027</span>
           <div className="education-row"><div><b>HSC</b><p>Government Higher Secondary School, Kalveerampalayam</p></div><span>Completed</span></div>
           <div className="education-row"><div><b>SSLC</b><p>PSG High School, Vedapatti</p></div><span>Completed</span></div>
         </Reveal>
@@ -52,7 +52,7 @@ export default function AboutPage() {
       </section>
 
       <section className="stats-band">
-        <div><strong>2026</strong><span>B.Tech graduation</span></div>
+        <div><strong>2027</strong><span>B.Tech graduation</span></div>
         <div><strong>04</strong><span>Live projects</span></div>
         <div><strong>12+</strong><span>Core tools</span></div>
         <div><strong>100%</strong><span>Learning mindset</span></div>
