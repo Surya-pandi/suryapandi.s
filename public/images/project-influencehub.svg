@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title description">
+  <title id="title">InfluenceHub website preview</title>
+  <desc id="description">A bright influencer marketplace landing page with creator cards and campaign analytics.</desc>
+  <defs>
+    <linearGradient id="background" x1="90" y1="90" x2="1500" y2="930" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff7fc"/>
+      <stop offset=".52" stop-color="#f8f7ff"/>
+      <stop offset="1" stop-color="#effbff"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ff2d9a"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="portraitOne" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffd9eb"/>
+      <stop offset="1" stop-color="#ffa8d0"/>
+    </linearGradient>
+    <linearGradient id="portraitTwo" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d8f6ff"/>
+      <stop offset="1" stop-color="#8bdcff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#26124a" flood-opacity=".13"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#background)"/>
+  <circle cx="1430" cy="110" r="260" fill="#ff2d9a" opacity=".08"/>
+  <circle cx="1260" cy="870" r="320" fill="#6f58ff" opacity=".08"/>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="55" width="1460" height="90" rx="22" fill="#fff" fill-opacity=".93"/>
+  </g>
+  <rect x="100" y="72" width="56" height="56" rx="15" fill="url(#brand)"/>
+  <text x="128" y="108" fill="#fff" font-family="Arial, sans-serif" font-size="18" font-weight="800" text-anchor="middle">IH</text>
+  <text x="176" y="105" fill="#111327" font-family="Arial, sans-serif" font-size="31" font-weight="800">Influence</text>
+  <text x="324" y="105" fill="#ff2d9a" font-family="Arial, sans-serif" font-size="31" font-weight="800">Hub</text>
+  <g fill="#5e6375" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="530" y="108">Home</text>
+    <text x="625" y="108">Influencers</text>
+    <text x="760" y="108">Categories</text>
+    <text x="885" y="108">How It Works</text>
+    <text x="1045" y="108">Pricing</text>
+  </g>
+  <rect x="1198" y="76" width="112" height="49" rx="13" fill="#fff" stroke="#dfe1e8" stroke-width="2"/>
+  <text x="1254" y="107" fill="#17182a" font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Login</text>
+  <rect x="1325" y="76" width="164" height="49" rx="13" fill="url(#brand)"/>
+  <text x="1407" y="107" fill="#fff" font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Register</text>
+
+  <g transform="translate(100 230)">
+    <rect width="294" height="42" rx="13" fill="#fff" stroke="#ffd4ea" stroke-width="2"/>
+    <circle cx="24" cy="21" r="7" fill="#ff2d9a"/>
+    <text x="44" y="27" fill="#e52083" font-family="Arial, sans-serif" font-size="15" font-weight="800">#1 GLOBAL INFLUENCER MARKETPLACE</text>
+  </g>
+
+  <text x="100" y="365" fill="#111327" font-family="Arial, sans-serif" font-size="75" font-weight="900">Find The Perfect</text>
+  <text x="100" y="452" fill="url(#brand)" font-family="Arial, sans-serif" font-size="82" font-weight="900">Influencer</text>
+  <text x="100" y="535" fill="#111327" font-family="Arial, sans-serif" font-size="75" font-weight="900">For Your Brand</text>
+  <text x="100" y="603" fill="#62677a" font-family="Arial, sans-serif" font-size="24" font-weight="500">Discover verified influencers worldwide, compare prices,</text>
+  <text x="100" y="638" fill="#62677a" font-family="Arial, sans-serif" font-size="24" font-weight="500">and collaborate to grow your brand.</text>
+
+  <rect x="100" y="690" width="220" height="64" rx="16" fill="url(#brand)"/>
+  <text x="210" y="730" fill="#fff" font-family="Arial, sans-serif" font-size="19" font-weight="800" text-anchor="middle">Find Influencers</text>
+  <rect x="336" y="690" width="188" height="64" rx="16" fill="#fff" stroke="#dfe1e8" stroke-width="2"/>
+  <text x="430" y="730" fill="#111327" font-family="Arial, sans-serif" font-size="19" font-weight="800" text-anchor="middle">Join as Creator</text>
+
+  <g transform="translate(100 804)">
+    <rect width="174" height="51" rx="15" fill="#fff" stroke="#e1e3ea"/>
+    <circle cx="25" cy="25" r="9" fill="#7c3aed"/>
+    <text x="44" y="32" fill="#53596a" font-family="Arial, sans-serif" font-size="15" font-weight="700">Live followers</text>
+    <rect x="190" width="194" height="51" rx="15" fill="#fff" stroke="#e1e3ea"/>
+    <circle cx="215" cy="25" r="9" fill="#ff2d9a"/>
+    <text x="234" y="32" fill="#53596a" font-family="Arial, sans-serif" font-size="15" font-weight="700">Verified creators</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="890" y="220" width="570" height="670" rx="38" fill="#fff"/>
+  </g>
+  <text x="940" y="284" fill="#191a2c" font-family="Arial, sans-serif" font-size="24" font-weight="850">Trending creators</text>
+  <text x="940" y="318" fill="#7c8090" font-family="Arial, sans-serif" font-size="16">Matched for your next campaign</text>
+
+  <g transform="translate(930 355)">
+    <rect width="224" height="306" rx="25" fill="#fff" stroke="#eaebf0" stroke-width="2"/>
+    <rect x="16" y="16" width="192" height="170" rx="19" fill="url(#portraitOne)"/>
+    <circle cx="112" cy="82" r="39" fill="#fff" fill-opacity=".58"/>
+    <path d="M57 170c15-40 47-63 55-63s40 23 55 63" fill="#e64a98" opacity=".82"/>
+    <circle cx="190" cy="31" r="14" fill="#fff"/>
+    <path d="m184 31 4 4 8-9" fill="none" stroke="#ff2d9a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="19" y="224" fill="#17182a" font-family="Arial, sans-serif" font-size="21" font-weight="800">Maya Cole</text>
+    <text x="19" y="253" fill="#777b8c" font-family="Arial, sans-serif" font-size="15">Fashion · Instagram</text>
+    <text x="19" y="284" fill="#7c3aed" font-family="Arial, sans-serif" font-size="16" font-weight="800">2.4M followers</text>
+  </g>
+
+  <g transform="translate(1174 355)">
+    <rect width="224" height="306" rx="25" fill="#fff" stroke="#eaebf0" stroke-width="2"/>
+    <rect x="16" y="16" width="192" height="170" rx="19" fill="url(#portraitTwo)"/>
+    <circle cx="112" cy="82" r="39" fill="#fff" fill-opacity=".58"/>
+    <path d="M57 170c15-40 47-63 55-63s40 23 55 63" fill="#327fbd" opacity=".78"/>
+    <circle cx="190" cy="31" r="14" fill="#fff"/>
+    <path d="m184 31 4 4 8-9" fill="none" stroke="#7c3aed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="19" y="224" fill="#17182a" font-family="Arial, sans-serif" font-size="21" font-weight="800">Arjun Rao</text>
+    <text x="19" y="253" fill="#777b8c" font-family="Arial, sans-serif" font-size="15">Tech · YouTube</text>
+    <text x="19" y="284" fill="#7c3aed" font-family="Arial, sans-serif" font-size="16" font-weight="800">1.8M followers</text>
+  </g>
+
+  <g transform="translate(930 697)">
+    <rect width="468" height="138" rx="23" fill="#17182a"/>
+    <text x="25" y="39" fill="#aeb2c0" font-family="Arial, sans-serif" font-size="14" font-weight="700">CAMPAIGN PERFORMANCE</text>
+    <text x="25" y="83" fill="#fff" font-family="Arial, sans-serif" font-size="35" font-weight="850">+87% Growth</text>
+    <polyline points="274,99 311,73 347,82 386,46 429,33" fill="none" stroke="#ff4ba9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="429" cy="33" r="8" fill="#74ddff"/>
+  </g>
+</svg>

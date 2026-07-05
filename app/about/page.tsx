@@ -3,12 +3,15 @@ import Link from "next/link";
 import { ArrowDown, ArrowUpRight, GraduationCap, Sparkles } from "lucide-react";
 import { Reveal } from "@/components/reveal";
 import { ResumeDownload } from "@/components/resume-download";
+import { projects } from "@/lib/projects";
 
 const tools = ["Next.js", "Supabase", "SQL", "JavaScript", "Python", "C", "Git/GitHub", "Vercel", "Render", "ChatGPT", "Claude", "Gemini"];
 
 export const metadata = { title: "About", description: "About Surya Pandi, a Full Stack Developer and AI Generalist." };
 
 export default function AboutPage() {
+  const projectCount = String(projects.length).padStart(2, "0");
+
   return (
     <>
       <section className="page-hero about-hero">
@@ -54,7 +57,7 @@ export default function AboutPage() {
 
       <section className="stats-band">
         <div><strong>2027</strong><span>B.Tech graduation</span></div>
-        <div><strong>04</strong><span>Live projects</span></div>
+        <div><strong>{projectCount}</strong><span>Live projects</span></div>
         <div><strong>12+</strong><span>Core tools</span></div>
         <div><strong>100%</strong><span>Learning mindset</span></div>
       </section>

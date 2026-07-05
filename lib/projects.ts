@@ -13,6 +13,22 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "influencehub",
+    title: "InfluenceHub",
+    category: "Influencer Marketplace",
+    year: "2026",
+    image: "/images/project-influencehub.svg",
+    url: "https://influencerhub-omega.vercel.app/",
+    description: "A global marketplace helping brands discover verified influencers, compare promotion pricing, and connect with the right creators.",
+    color: "#ff2d9a",
+    stack: ["Next.js", "Supabase", "Tailwind CSS", "Motion"],
+    highlights: [
+      "Built creator discovery with category, location, platform, and audience filters.",
+      "Created separate brand and influencer journeys with profiles, sample work, pricing, and analytics.",
+      "Implemented subscription-based contact unlocking with real-time creator data from Supabase.",
+    ],
+  },
+  {
     slug: "faculty-recruit",
     title: "FacultyRecruit",
     category: "Academic Recruitment Platform",
