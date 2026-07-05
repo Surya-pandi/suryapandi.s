@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowDown, ArrowUpRight, GraduationCap, Sparkles } from "lucide-react";
@@ -7,13 +8,38 @@ import { projects } from "@/lib/projects";
 
 const tools = ["Next.js", "Supabase", "SQL", "JavaScript", "Python", "C", "Git/GitHub", "Vercel", "Render", "ChatGPT", "Claude", "Gemini"];
 
-export const metadata = { title: "About", description: "About Surya Pandi, a Full Stack Developer and AI Generalist." };
+export const metadata: Metadata = {
+  title: "About",
+  description: "Learn about Surya Pandi S, a B.Tech Information Technology student, Full Stack Developer, and AI Generalist from India.",
+  alternates: { canonical: "/about" },
+};
+
+const profileStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://suryapandi.com/about#profile-page",
+  url: "https://suryapandi.com/about",
+  name: "About Surya Pandi S",
+  description: "Professional profile of Surya Pandi S, Full Stack Developer and AI Generalist.",
+  mainEntity: {
+    "@type": "Person",
+    "@id": "https://suryapandi.com/#person",
+    name: "Surya Pandi S",
+    alternateName: "Surya Pandi",
+    url: "https://suryapandi.com/",
+    image: "https://suryapandi.com/images/profile.jpg",
+    jobTitle: "Full Stack Developer and AI Generalist",
+    description: "B.Tech Information Technology student with hands-on experience in Next.js, Supabase, UI/UX, and AI-assisted development.",
+    sameAs: ["https://github.com/Surya-pandi", "https://linkedin.com/in/surya-pandis"],
+  },
+};
 
 export default function AboutPage() {
   const projectCount = String(projects.length).padStart(2, "0");
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(profileStructuredData).replace(/</g, "\\u003c") }} />
       <section className="page-hero about-hero">
         <p className="section-kicker light"><span>(01)</span> Professional profile</p>
         <h1>FULL STACK<br /><i>AI GENERALIST.</i></h1>
@@ -29,7 +55,7 @@ export default function AboutPage() {
           <Reveal><p className="section-kicker"><span>(A)</span> Professional summary</p></Reveal>
           <Reveal><h2>I build complete web products with a strong sense of <em>UI/UX.</em></h2></Reveal>
           <Reveal>
-            <p>I am a motivated B.Tech Information Technology student and fresher full stack developer with hands-on experience in Next.js and Supabase.</p>
+            <p>I am Surya Pandi S, a motivated B.Tech Information Technology student and fresher full stack developer with hands-on experience in Next.js and Supabase.</p>
             <p>My interests include AI-assisted development, prompt engineering, clean interfaces, project documentation, and end-to-end deployment on Vercel and Render.</p>
           </Reveal>
           <Reveal><div className="about-actions"><Link href="/contact" className="text-link">Connect with me <ArrowUpRight /></Link><ResumeDownload /></div></Reveal>

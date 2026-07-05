@@ -1,7 +1,12 @@
+import type { Metadata } from "next";
 import { ArrowUpRight, Github, Linkedin, Mail, Phone } from "lucide-react";
 import { ContactForm } from "@/components/contact-form";
 
-export const metadata = { title: "Contact", description: "Contact Surya Pandi for full stack development opportunities and projects." };
+export const metadata: Metadata = {
+  title: "Contact",
+  description: "Contact Surya Pandi S for full stack development opportunities, internships, collaborations, and web application projects.",
+  alternates: { canonical: "/contact" },
+};
 
 export default function ContactPage() {
   return (

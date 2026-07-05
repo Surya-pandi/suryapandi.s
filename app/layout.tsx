@@ -7,12 +7,37 @@ import { PageTransition } from "@/components/page-transition";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://suryapandi.com"),
-  title: { default: "Surya Pandi S - Full Stack Developer", template: "%s - Surya Pandi" },
-  description: "Portfolio of Surya Pandi S, a Full Stack Developer and AI Generalist building Next.js and Supabase applications.",
-  keywords: ["Full Stack Developer", "Next.js developer", "Supabase", "AI Generalist", "JavaScript", "Python", "India"],
+  title: { default: "Surya Pandi S | Full Stack Developer & AI Generalist", template: "%s | Surya Pandi S" },
+  description: "Surya Pandi S is a Full Stack Developer and AI Generalist from India who builds modern web applications with Next.js, Supabase, and clean UI/UX.",
+  applicationName: "Surya Pandi S Portfolio",
+  authors: [{ name: "Surya Pandi S", url: "https://suryapandi.com" }],
+  creator: "Surya Pandi S",
+  publisher: "Surya Pandi S",
+  category: "technology",
+  keywords: ["Surya Pandi S", "Surya Pandi", "Full Stack Developer", "Next.js developer", "Supabase", "AI Generalist", "JavaScript", "Python", "India"],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
   openGraph: {
-    title: "Surya Pandi S - Full Stack Developer",
-    description: "Next.js, Supabase, AI-assisted development, and end-to-end deployment.",
+    type: "website",
+    locale: "en_IN",
+    siteName: "Surya Pandi S Portfolio",
+    title: "Surya Pandi S | Full Stack Developer & AI Generalist",
+    description: "Portfolio of Surya Pandi S, building modern web applications with Next.js, Supabase, AI-assisted workflows, and clean UI/UX.",
+    images: [{ url: "/images/profile.jpg", width: 1080, height: 1037, alt: "Surya Pandi S" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Surya Pandi S | Full Stack Developer & AI Generalist",
+    description: "Portfolio of Surya Pandi S, building modern web applications with Next.js, Supabase, and clean UI/UX.",
     images: ["/images/profile.jpg"],
   },
 };

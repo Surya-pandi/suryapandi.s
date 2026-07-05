@@ -1,7 +1,12 @@
+import type { Metadata } from "next";
 import { ProjectCard } from "@/components/project-card";
 import { projects } from "@/lib/projects";
 
-export const metadata = { title: "Projects", description: "Full stack projects by Surya Pandi, built with Next.js, Supabase, and modern deployment workflows." };
+export const metadata: Metadata = {
+  title: "Projects",
+  description: "Explore full stack projects by Surya Pandi S, built with Next.js, Supabase, modern UI/UX, and production deployment workflows.",
+  alternates: { canonical: "/projects" },
+};
 
 export default function ProjectsPage() {
   const projectCount = String(projects.length).padStart(2, "0");
