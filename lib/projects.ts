@@ -45,6 +45,22 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "pcet-hostel-attendance",
+    title: "PCET Hostel Attendance",
+    category: "Hostel Attendance Management System",
+    year: "2026",
+    image: "/images/project-hostel-attendance.png",
+    url: "https://park-hostel-sys.vercel.app/",
+    description: "A Supabase-backed hostel attendance platform for managing student attendance through role-based workspaces.",
+    color: "#2563ff",
+    stack: ["Next.js", "Supabase", "Vercel", "Role-Based UI"],
+    highlights: [
+      "Built role-specific attendance flows for student, warden, AO, and director users.",
+      "Connected hostel attendance data and workspace access directly with Supabase.",
+      "Created login and student registration entry points for everyday hostel operations.",
+    ],
+  },
+  {
     slug: "manscripts",
     title: "ManScripts",
     category: "Web Development Service Website",
