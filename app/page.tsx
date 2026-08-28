@@ -52,7 +52,7 @@ export default function Home() {
       <section className="home-intro section-pad">
         <Reveal className="section-kicker"><span>(A)</span> Professional summary</Reveal>
         <Reveal className="intro-statement">
-          I&apos;m Surya Pandi S, A   B.Tech Information Technology student and fresher <em>full stack developer</em> building clean, useful web applications.
+          I&apos;m Surya Pandi S, <span className="degree-article">A</span> B.Tech Information Technology student and fresher <em>full stack developer</em> building clean, useful web applications.
         </Reveal>
         <Reveal className="intro-foot">
           <p>I work with Next.js, Supabase, AI-assisted development, prompt engineering, and end-to-end deployment on Vercel and Render.</p>
